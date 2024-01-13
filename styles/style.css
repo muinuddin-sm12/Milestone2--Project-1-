@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+/* Shared styles */
+.container {
+    padding: 50px 240px;
+}
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+}
+p {
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/*------- Header Start -------*/
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+}
+/* Nav start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+nav h2 {
+    color: #131313;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    content-visibility: 18px;
+    font-weight: 500;
+    color: #424242;
+    margin-left: 40px;
+}
+/* Banner start */
+.banner {
+    text-align: center;
+}
+.banner-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    width: 860px;
+    margin: 0 auto;
+}
+.banner-content p {
+    width: 868px;
+    margin: 0px auto 32px;
+}
+.banner-content button {
+    margin-bottom: 50px;
+}
+.banner-img img {
+    width: 100%;
+}
+/*------- Header End -------*/
+
